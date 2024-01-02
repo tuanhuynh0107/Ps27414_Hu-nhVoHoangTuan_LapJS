@@ -12,11 +12,84 @@
             background-color: #33691E;
         }
     </style>
+
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.1/moment.min.js"></script>
 </head>
 
 <body>
-    <!-- Bài 1 -->
-    <div id="target"></div>
+    <div class="wrapper">
+        <!-- Bài 1 -->
+        <h2>Bài 1</h2>
+        <div id="target"></div>
+
+        <!-- Bài 2 -->
+        <h2>Bài 2</h2>
+        <div class="parent">
+            <input type="text" id="inputText" value="">
+            <h3></h3>
+
+            <button class="addChildren">Thêm mói element</button>
+        </div>
+
+        <!-- Bài 3 -->
+
+        <h2>Bài 3</h2>
+        <h2 class="titleStudent">Danh sách học sinh</h2>
+
+
+        <ul class="listStudents">
+        </ul>
+        <h2>Bài 4</h2>
+        <form action="#!">
+            <div class="forn-group">
+                <label for="id">id</label>
+                <input type="text" id="id" value="">
+            </div>
+            <div class="forn-group">
+                <label for="name">Tên sinh viên</label>
+                <input type="text" id="name" value="">
+            </div>
+            <div class="forn-group">
+                <label for="age">Tuổi</label>
+                <input type="text" id="age" value="">
+            </div>
+            <div class="forn-group">
+                <label for="gender">Giới tính</label>
+                <select name="" id="gender">
+                    <option value=""></option>
+                    <option value="1">Nam</option>
+                    <option value="2">Nữ</option>
+                    <option value="3">Khác</option>
+                </select>
+            </div>
+
+            <button class="addBtn">Thêm Sinh Viên</button>
+        </form>
+        <h2>Bài 5</h2>
+        <form action="#!">
+            <div class="form-gourp">
+                <label for="dayInput">Ngày: </label>
+                <input type="text" id="dayInput" placeholder="DD">
+            </div>
+            <div class="form-gourp">
+                <label for="monthInput">Tháng: </label>
+                <input type="text" id="monthInput" placeholder="MM">
+            </div>
+            <div class="form-gourp">
+                <label for="yearInput">Năm: </label>
+                <input type="text" id="yearInput" placeholder="YYYY">
+            </div>
+
+            <button class="dateBtn">Kiểm tra</button>
+        </form>
+        <h3 id="result1"></h3>
+        <h3 id="result2"></h3>
+        <h3 id="result3"></h3>
+        <h3 id="result4"></h3>
+        <h3 id="result5"></h3>
+        <h3 id="result6"></h3>
+    </div>
     <script src="app.js"></script>
 </body>
 

@@ -1,0 +1,100 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+#target {
+    width: 60px;
+    height: 60px;
+    background-color: #33691E;
+    margin-bottom: 20px;
+}
+
+.wrapper {
+    max-width: 500px;
+    margin: 0 auto;
+    box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 1px;
+}
+
+.parent {
+    display: flex;
+    align-items: start;
+    flex-direction: column;
+    gap: 30px;
+    margin-bottom: 20px;
+}
+
+button {
+    margin: 20px;
+}
+
+input {
+    padding: 12px;
+    margin-right: 10px;
+
+    outline: none;
+}
+
+input:focus {
+    box-shadow: 1px 2px 12px rgba(24, 32, 35, 0.12);
+    background-color: rgba(22, 24, 35, 0.03);
+}
+
+h3 {
+    margin: 0;
+}
+
+.addChildren {
+    padding: 5px 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.titleStudent {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.listStudents {
+    list-style: none;
+    padding: 0;
+}
+
+.forn-group {
+    margin-bottom: 10px;
+}
+
+.form-gourp+.form-gourp {
+    margin-top: 10px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+select,
+input[type="text"] {
+    padding: 5px;
+    width: 100%;
+}
+
+.addBtn,
+.dateBtn {
+    padding: 8px 12px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.addBtn:hover,
+.dateBtn:hover {
+    background-color: #45a049;
+}
