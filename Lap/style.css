@@ -106,3 +106,9 @@ input[type="text"] {
     object-fit: cover;
     border-radius: 50%;
 }
+
+.changeColor {
+    width: 150px;
+    height: 150px;
+    background-color: #000;
+}
