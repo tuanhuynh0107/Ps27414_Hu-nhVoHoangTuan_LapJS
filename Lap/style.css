@@ -59,6 +59,7 @@ h3 {
 .titleStudent {
     font-size: 20px;
     margin-bottom: 10px;
+
 }
 
 .listStudents {
@@ -97,4 +98,11 @@ input[type="text"] {
 .addBtn:hover,
 .dateBtn:hover {
     background-color: #45a049;
+}
+
+.avatar {
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+    border-radius: 50%;
 }
