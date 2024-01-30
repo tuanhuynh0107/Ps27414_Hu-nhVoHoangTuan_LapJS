@@ -1,0 +1,233 @@
+{
+    "user": [
+        {
+            "id": 1,
+            "name": "Huỳnh Võ Hoàng Tuấn",
+            "gender": "Nam",
+            "userName": "tuanhuynh0107",
+            "email": "ht24430@gmail.com",
+            "passWord": "312503020Tuan",
+            "address": "Tân Lập Tân Phước Tiền Giang"
+        },
+        {
+            "id": 2,
+            "name": "Huỳnh Ngọc Anh",
+            "gender": "Nữ",
+            "userName": "ngocanh0812",
+            "email": "ha24430@gmail.com",
+            "passWord": "312503020Anh",
+            "address": "Tân Lập Tân Phước Tiền Giang"
+        },
+        {
+            "id": 3,
+            "name": "Nguyễn Thị Yến Nhi",
+            "gender": "Nữ",
+            "userName": "yennhi0107",
+            "email": "nn24430@gmail.com",
+            "passWord": "312503020Nhi",
+            "address": "Tân Lập Tân Phước Tiền Giang"
+        }
+    ],
+    "proDuctNew": [
+        {
+            "masp": "SP001",
+            "name": "Coffee Beans - Espresso Arabica and Robusta Beans",
+            "price": 47000,
+            "catagori": "Lavazza",
+            "image": "./assets/img/product/item-1.png",
+            "start": "3.4"
+        },
+        {
+            "masp": "SP002",
+            "name": "Lavazza Coffee Blends - Try the Italian Espresso",
+            "price": 53000,
+            "catagori": "Welikecoffee",
+            "image": "./assets/img/product/item-2.png",
+            "start": "4.4"
+        },
+        {
+            "masp": "SP003",
+            "name": "Lavazza - Caffè Espresso Black Tin - Ground coffee",
+            "price": 99000,
+            "image": "./assets/img/product/item-3.png",
+            "catagori": "Lavazza",
+            "start": "4.8"
+        },
+        {
+            "masp": "SP004",
+            "name": "Qualità Oro Mountain Grown - Espresso Coffee Beans",
+            "price": 38500,
+            "image": "./assets/img/product/item-4.png",
+            "catagori": "Lavazza",
+            "start": "2.4"
+        },
+        {
+            "masp": "SP005",
+            "name": "Coffe Việt Nam",
+            "price": 38500,
+            "image": "./assets/img/product/item-5.png",
+            "catagori": "Welikecoffee",
+            "start": "5.0"
+        },
+        {
+            "masp": "SP006",
+            "name": "Lavazza Coffee Blends - Try the Italian Espresso 2",
+            "price": 38500,
+            "image": "./assets/img/product/item-8.png",
+            "catagori": "Lavazza",
+            "start": "2.4"
+        },
+        {
+            "masp": "SP007",
+            "name": "Lavazza - Caffè Espresso Black Tin - Ground coffee 3 ",
+            "price": 38500,
+            "image": "./assets/img/product/item-7.webp",
+            "catagori": "Lavazza",
+            "start": "3.4"
+        },
+        {
+            "masp": "SP008",
+            "name": "Coffee Beans - Espresso Arabica and Robusta Beans",
+            "price": 38500,
+            "image": "./assets/img/product/item-8.png",
+            "catagori": "Welikecoffee",
+            "start": "4.2"
+        },
+        {
+            "masp": "SP009",
+            "name": "Lavazza Coffee Blends - Try the Italian Espresso",
+            "price": 38500,
+            "image": "./assets/img/product/item-3.png",
+            "catagori": "Lavazza",
+            "start": "1.4"
+        },
+        {
+            "masp": "SP010",
+            "name": "Coffee Beans - Espresso Arabica and Robusta Beans",
+            "price": 38500,
+            "image": "./assets/img/product/item-4.png",
+            "catagori": "Welikecoffee",
+            "start": "4.8"
+        }
+    ],
+    "catagori": [
+        {
+            "id": 1,
+            "name": "Lavazza"
+        },
+        {
+            "id": 2,
+            "name": "Welikecoffee"
+        },
+        {
+            "id": 3,
+            "name": "Espresso"
+        },
+        {
+            "id": 4,
+            "name": "Americano"
+        },
+        {
+            "id": 5,
+            "name": "Trung Nguyên"
+        }
+    ],
+    "products": [
+        {
+            "id": "10832906",
+            "brand": "Gun",
+            "name": "ARISTOCRAT VANDAL",
+            "price": 34990000,
+            "sale": 31990000,
+            "chip": "Apple A16 Bionic",
+            "screen": 6.7,
+            "ram": null,
+            "rom": 128,
+            "quantity": 1
+        },
+        {
+            "id": "10773146",
+            "brand": "Apple",
+            "name": "FORSAKEN VANDAL",
+            "price": 24990000,
+            "sale": 19490000,
+            "chip": "Apple A15 Bionic",
+            "screen": 6.1,
+            "ram": 4,
+            "rom": 128,
+            "quantity": 1
+        },
+        {
+            "id": "10719655",
+            "brand": "Apple",
+            "name": "CHRONOVOID VANDAL",
+            "price": 19999000,
+            "sale": 15499000,
+            "chip": "Apple A14 Bionic",
+            "screen": 6.1,
+            "ram": 4,
+            "rom": 64,
+            "quantity": 1
+        },
+        {
+            "id": "10799174",
+            "brand": "Xiaomi",
+            "name": "ORIGIN VANDAL",
+            "price": 19990000,
+            "sale": 13190000,
+            "chip": "Snapdragon 8 Gen 1",
+            "screen": 6.28,
+            "ram": 8,
+            "rom": 256,
+            "quantity": 1
+        },
+        {
+            "id": "10812809",
+            "brand": "Xiaomi",
+            "name": "ARAXYS VANDAL",
+            "price": 4290000,
+            "sale": 3790000,
+            "chip": "MediaTek Helio G88",
+            "screen": 6.5,
+            "ram": 4,
+            "rom": 128,
+            "quantity": 1
+        },
+        {
+            "id": "10800641",
+            "brand": "Xiaomi",
+            "name": "VANDAL (PAINT FIGHT) ",
+            "price": 2490000,
+            "sale": 2090000,
+            "chip": "Helio G25",
+            "screen": 6.53,
+            "ram": 2,
+            "rom": 32,
+            "quantity": 1
+        },
+        {
+            "id": "10824364",
+            "brand": "Samsung",
+            "name": "CHAMPION VANDAL",
+            "price": 40990000,
+            "sale": 37990000,
+            "chip": "Snapdragon 8+ Gen 1",
+            "screen": 7.6,
+            "ram": 12,
+            "rom": 256,
+            "quantity": 1
+        },
+        {
+            "id": "10795385",
+            "brand": "Samsung",
+            "name": "AERO PHANTOM",
+            "price": 30990000,
+            "sale": 23990000,
+            "chip": "Snapdragon 8 Gen 1",
+            "screen": 6.8,
+            "ram": 8,
+            "rom": 128,
+            "quantity": 1
+        }
+    ]
+}
