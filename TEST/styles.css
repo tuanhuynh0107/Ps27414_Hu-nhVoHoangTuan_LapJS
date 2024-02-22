@@ -1,0 +1,16 @@
+.result {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.mess {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 150px;
+    width: 200px;
+    color: #000;
+    background-color: rgba(35,35,35, 0.6);
+}

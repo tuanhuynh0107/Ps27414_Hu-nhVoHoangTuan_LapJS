@@ -100,7 +100,7 @@ let Exercise2 = () => {
 }
 
 let Exercise3 = () => {
-        function promptAsync(question) {
+        function ImportData(question) {
             return new Promise((resolve) => {
             const input = prompt(question);
             resolve(input);
@@ -114,49 +114,47 @@ let Exercise3 = () => {
         }
       
         async function enterStudentInfo() {
-        const studentName = await promptAsync("Nhập họ và tên sinh viên:");
-        const courseName = await promptAsync("Nhập tên môn học:");
-      
-        const grades = {};
-      
-        async function enterLabGrade(labNumber, weight) {
-          const labGrade = await promptAsync(`Nhập điểm Lab ${labNumber}:`);
-          grades[`Lab${labNumber}`] = { grade: parseFloat(labGrade), weight };
-          await delay(3000); // Chờ 3 giây
+            const studentName = await ImportData("Nhập họ và tên sinh viên:");
+            const courseName = await ImportData("Nhập tên môn học:");
+          
+            const grades = {};
+          
+            async function enterLabGrade(labNumber, weight) {
+              const labGrade = await ImportData(`Nhập điểm Lab ${labNumber}:`);
+              grades[`Lab${labNumber}`] = { grade: parseFloat(labGrade), weight };
+              await delay(3000); 
+            }
+          
+            await enterLabGrade(1, 10);
+            await enterLabGrade(2, 20);
+            await enterLabGrade(3, 30);
+          
+            const finalGrade = await ImportData("Nhập điểm thi Final:");
+            grades.Final = { grade: parseFloat(finalGrade), weight: 40 };
+            await delay(3000);
+          
+            const averageGrade =
+              ( grades.Lab1.grade * grades.Lab1.weight +
+                grades.Lab2.grade * grades.Lab2.weight +
+                grades.Lab3.grade * grades.Lab3.weight +
+                grades.Final.grade * grades.Final.weight) /
+              100;
+            
+            let classification;
+            if (averageGrade < 5) {
+              classification = "Yếu";
+            } else if (averageGrade < 7) {
+              classification = "Trung Bình Khá";
+            } else if (averageGrade < 8.5) {
+              classification = "Khá";
+            } else {
+              classification = "Giỏi";
+            }
+          
+            console.log(`Điểm trung bình của sinh viên ${studentName} môn ${courseName}: ${averageGrade}`);
+            console.log(`Học lực: ${classification}`);
         }
-      
-        await enterLabGrade(1, 10);
-        await enterLabGrade(2, 20);
-        await enterLabGrade(3, 30);
-      
-        const finalGrade = await promptAsync("Nhập điểm thi Final:");
-        grades.Final = { grade: parseFloat(finalGrade), weight: 40 };
-        await delay(3000); // Chờ 3 giây
-      
-        const averageGrade =
-          (grades.Lab1.grade * grades.Lab1.weight +
-            grades.Lab2.grade * grades.Lab2.weight +
-            grades.Lab3.grade * grades.Lab3.weight +
-            grades.Final.grade * grades.Final.weight) /
-          100;
-      
-        let classification;
-        if (averageGrade < 5) {
-          classification = "Yếu";
-        } else if (averageGrade < 7) {
-          classification = "Trung Bình Khá";
-        } else if (averageGrade < 8.5) {
-          classification = "Khá";
-        } else {
-          classification = "Giỏi";
-        }
-      
-        console.log(`Điểm trung bình của sinh viên ${studentName} môn ${courseName}: ${averageGrade}`);
-        console.log(`Học lực: ${classification}`);
-      }
-      
       enterStudentInfo();
-      
 }
 
 Exercise3();
